@@ -5,5 +5,5 @@ function doAddition(){                                                  // This 
     var subbedNum = addedNum - 3;                                       // Subtract 3 because why not
     var dividedNum = subbedNum / Math.random();                         // Mulitply by dividing by a fraction
     var multipliedNum = dividedNum * (Math.random() * 54321);           // Then make it big by just multiplying it, maybe
-    document.getElementById("Math").innerHTML += multipliedNum + ", ";  // Add it to the HTML and make it a big organized
+    document.getElementById("Math").innerHTML += multipliedNum + ", ";  // Add it to the HTML and make it a bit organized
 };                                                                    
