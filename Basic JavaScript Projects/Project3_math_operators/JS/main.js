@@ -1,9 +1,30 @@
-function doAddition(){                                                  // This just makes big stupid numbers
-    var randomNum = Math.random() * 21;                                 // Start w/ just a number between 21 and 0
-    var moddedNum = randomNum % 100;                                    // Find the mod of it making it less than 100
-    var addedNum = moddedNum + randomNum;                               // Add the mod back to the original number
-    var subbedNum = addedNum - 3;                                       // Subtract 3 because why not
-    var dividedNum = subbedNum / Math.random();                         // Mulitply by dividing by a fraction
-    var multipliedNum = dividedNum * (Math.random() * 54321);           // Then make it big by just multiplying it, maybe
-    document.getElementById("Math").innerHTML += multipliedNum + ", ";  // Add it to the HTML and make it a bit organized
-};                                                                    
+function doRandom(){                                    // Each function is called by a different button in the HTML                            
+    var randomNum = Math.random() * 100;                // Multiplies and gets a random number from 0 to 100
+    window.alert(randomNum);                            // Alerts
+};
+      
+function doAddition(){
+    var addNum = 2 + 2;    //Adds
+    window.alert(addNum);  //Alerts
+};
+
+function doSubtraction(){
+    var subNum = 12 - 30;   // Subtracts
+    window.alert(subNum);   // Prints num out in alert box
+};
+
+function doMultiplication(){
+    var multNum = 20 * 100; // Multiplies
+    window.alert(multNum);  // Prints num in alert box
+};
+
+function doDivision(){
+    var divNum = 21 / 2;    // Divides
+    window.alert(divNum);   // Prints it out
+};
+
+function doModulation(){
+    var modNum = 10 % 3;    // Finds mod of 10
+    alert.write(modNum);    // Prints out said mod
+}
+
