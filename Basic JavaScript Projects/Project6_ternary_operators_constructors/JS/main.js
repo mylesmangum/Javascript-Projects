@@ -2,11 +2,11 @@
 
 function checkAge(){
     
-    class Person {
-        constructor(age, name, phonenumber) {
-            this.age = age;
-            this.name = name;
-            this.phonenumber = phonenumber;
+    class Person {                                                                                                                          // A class I made, I know functions are what
+        constructor(age, name, phonenumber) {                                                                                               // we were doing but this is what i found online
+            this.age = age;                                                                                                                 // I think it's easier to make functions to work
+            this.name = name;                                                                                                               // with the class but I dont know how helpful it is
+            this.phonenumber = phonenumber;                                                                                                 // in JavaScript w/o inheritance
         }
     }   
 
