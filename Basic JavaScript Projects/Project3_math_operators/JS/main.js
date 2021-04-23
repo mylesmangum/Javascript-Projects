@@ -28,3 +28,13 @@ function doModulation(){
     alert.write(modNum);    // Prints out said mod
 }
 
+
+function plusOne(){
+    var oneMore = 10++;     // Adds one to 10
+    alert.write(oneMore);   // Prints it out
+}
+
+function minusOne(){
+    var oneLess = 10--;     // Subtracts one from 10
+    alert.write(oneLess);   // Prints
+}
