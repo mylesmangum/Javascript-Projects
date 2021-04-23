@@ -5,7 +5,7 @@ function getRooms(){
         temperature: 72,
         address:"970 S, Univeristy Street",
         building:"B"
-    };
+    }
     delete apartment.rooms;                       // Deleting the rooms
     document.getElementById("dictionary").innerHTML = String(apartment.rooms);  // Get the value for the key in rooms
 };
