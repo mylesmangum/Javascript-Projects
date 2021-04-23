@@ -1,5 +1,5 @@
 function setHTML(){
-    document.write(typeof(document.getElementById("textbox").value));    // Checks the value type, which is going to be string
+    document.write(typeof(document.getElementById("textbox").value));    // Checks the value type, which is going to be string because it is a textbox with a value of "text"
 };
 
 function combineVariables(){
