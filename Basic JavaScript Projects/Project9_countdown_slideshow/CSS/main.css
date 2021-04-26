@@ -1,0 +1,15 @@
+html{
+    font-size: 3rem;
+}
+
+.slideshow{
+    position: relative;
+}
+
+.slides{
+    display: none;
+}
+
+.slides:first-child{
+    display: inline;
+}

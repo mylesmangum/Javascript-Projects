@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="js/main.js"></script>
-    <style>
-        html{
-            font-size: 3rem;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    <p>ALAREM</p>
+    <p>ALARM</p>
     <input type="number" id="seconds">
     <button onclick="countdown()">CLICK HERE</button>
     <p id="timer">:)</p>
+
+    <!-- Container for slideshow -->
+    <div class="slideshow">
+
+        <div class="slides">
+            <img src="./CSS/img/photo1.jpg" alt="Chloe">
+        </div>
+
+        <div class="slides">
+            <img src="./CSS/img/photo2.jpg" alt="Sansa">
+        </div>
+        <div class="slides">
+            <img src="./CSS/img/photo3.jpg" alt="Chloe">
+        </div>
+
+        <div class="slides">
+            <img src="./CSS/img/photo4.jpg" alt="Sansa">
+        </div>
+        
+        <button onclick="nextSlide()">Next</button>
+        <button onclick="lastSlide()">Previous</button>
+    </div>
 </body>
 </html>
