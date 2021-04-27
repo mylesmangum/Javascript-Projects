@@ -38,4 +38,20 @@ function nextSlide(){                                               //
     }
 }
 
+function lastSlide(){
+    var slides = document.getElementsByClassName("slides");         // Make list of all slide elements in class
+    slideIndex--;                                                   // Decrement by 1 to start the next slide
+    
+    if(slideIndex != -1 && slideIndex < slides.length){              // The conditionals make sure that values will not go out of bounds
+        slides[slideIndex+1].style.display = "none";                // in the list, if it doesn't then it will take the last slide remove
+        slides[slideIndex].style.display = "inline";                // it and show the next
+    }
+    else if(slideIndex == -1){
+        slides[0].style.display = "none";                                       // If the list gets wrapped around it will check here and I hard coded
+        slides[slides.length - 1].style.display = "inline";                     // the values rather than using variables
+        slideIndex = slides.length - 1;                                       
+    }
+    
+}
+
 
